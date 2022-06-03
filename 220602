@@ -4,69 +4,75 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"🇺🇸_220602_10_1","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"trojan","name":"🇺🇸_220602_17_1","server":"au2-1.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"🇺🇸_220602_10_2","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"trojan","name":"🇺🇸_220602_17_2","server":"au2-1.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_220602_18_1","server":"au2-2.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_220602_20_1","server":"sg-zf.jiashumao.net","port":29465,"password":"bfaf0f2b-c727-32ea-ab28-25e438fda91f","udp":true,"skip-cert-verify":true,"sni":"sg-zf.jiashumao.net"}
-  - {"type":"vmess","name":"🇺🇸_220602_21_1","ws-opts":{"path":"/","headers":{"host":"hk.azure.fnyun.cyou"}},"server":"hk.azure.fnyun.cyou","port":"16443","uuid":"6fa984b6-f341-491a-8f64-2f39ba3e3d36","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_220602_22_1","ws-opts":{"path":"/","headers":{"host":"kr.azure.fnyun.cyou"}},"server":"kr.azure.fnyun.cyou","port":"36443","uuid":"6fa984b6-f341-491a-8f64-2f39ba3e3d36","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_220602_23_1","ws-opts":{"path":"/","headers":{"host":"sg.azure.fnyun.cyou"}},"server":"sg.azure.fnyun.cyou","port":"46443","uuid":"6fa984b6-f341-491a-8f64-2f39ba3e3d36","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ssr","name":"🇺🇸_220602_10_3","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"trojan","name":"🇺🇸_220602_17_3","server":"au2-1.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_220602_18_2","server":"au2-2.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇭🇰_220602_19","server":"az.gunangzhui.cloud","port":41534,"password":"9e496875-e09c-451b-a99c-fe2f57e221c2","udp":true,"skip-cert-verify":true,"sni":"az.gunangzhui.cloud"}
-  - {"type":"trojan","name":"🇺🇸_220602_20_2","server":"sg-zf.jiashumao.net","port":29465,"password":"bfaf0f2b-c727-32ea-ab28-25e438fda91f","udp":true,"skip-cert-verify":true,"sni":"sg-zf.jiashumao.net"}
-  - {"type":"vmess","name":"🇺🇸_220602_21_2","ws-opts":{"path":"/","headers":{"host":"hk.azure.fnyun.cyou"}},"server":"hk.azure.fnyun.cyou","port":"16443","uuid":"6fa984b6-f341-491a-8f64-2f39ba3e3d36","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_220602_22_2","ws-opts":{"path":"/","headers":{"host":"kr.azure.fnyun.cyou"}},"server":"kr.azure.fnyun.cyou","port":"36443","uuid":"6fa984b6-f341-491a-8f64-2f39ba3e3d36","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_220602_23_2","ws-opts":{"path":"/","headers":{"host":"sg.azure.fnyun.cyou"}},"server":"sg.azure.fnyun.cyou","port":"46443","uuid":"6fa984b6-f341-491a-8f64-2f39ba3e3d36","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_1","server":"au2-1.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_2","server":"au2-2.nigirocloud.com","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰_3","server":"ssl.tcpbbr.net","port":443,"password":"7b4066ae-accc-11eb-a8bf-f23c91cfbbc9","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_4","server":"qt27.godseven.xyz","port":2087,"password":"37650a79-2337-4087-a468-3e29ceb7e14e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_5","server":"usa002.369boy.com","port":12001,"password":"d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6","udp":true,"skip-cert-verify":true,"sni":"usa002.369boy.com"}
+  - {"type":"trojan","name":"🇺🇸_6","server":"jp001.369boy.com","port":17001,"password":"d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6","udp":true,"skip-cert-verify":true,"sni":"jp001.369boy.com"}
+  - {"type":"trojan","name":"🇭🇰_7","server":"20.187.79.61","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_8","server":"134.195.101.32","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_9","server":"150.230.43.106","port":"54829","uuid":"f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇮🇱_10","server":"83.229.73.60","port":50003,"cipher":"aes-256-cfb","password":"8460400130"}
+  - {"type":"trojan","name":"🇺🇸_11","server":"134.195.101.32","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇸🇬_12","server":"129.226.213.33","port":"27970","uuid":"7f38e7a1-31c9-409e-f7c8-75724d013f2f","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬_13","server":"129.226.95.229","port":"43747","uuid":"b1ab23a1-6504-4cf0-af25-9f3030b65925","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬_14","server":"129.226.213.227","port":"39141","uuid":"e42fd9e6-4572-4dd2-e059-b98924850568","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬_15","server":"129.226.93.124","port":"23338","uuid":"e39405df-f0c5-4702-9e41-695d702c9ce2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇭🇰_16","server":"29d78fe.nf.gladns.com","port":3389,"password":"8c72bafbd4837610","udp":true,"skip-cert-verify":true,"sni":"29d78fe.nf.gladns.com"}
+  - {"type":"vmess","name":"🇺🇸_17","server":"150.230.41.9","port":"23292","uuid":"956c6c2f-bf54-4b87-fafd-4b767ca12750","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_18","server":"jp001.369boy.com","port":17001,"password":"d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇮🇳_19","server":"172.104.206.42","port":"31221","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_220602_10_1
-      - 🇺🇸_220602_17_1
-      - 🇺🇸_220602_10_2
-      - 🇺🇸_220602_17_2
-      - 🇺🇸_220602_18_1
-      - 🇺🇸_220602_20_1
-      - 🇺🇸_220602_21_1
-      - 🇺🇸_220602_22_1
-      - 🇺🇸_220602_23_1
-      - 🇺🇸_220602_10_3
-      - 🇺🇸_220602_17_3
-      - 🇺🇸_220602_18_2
-      - 🇭🇰_220602_19
-      - 🇺🇸_220602_20_2
-      - 🇺🇸_220602_21_2
-      - 🇺🇸_220602_22_2
-      - 🇺🇸_220602_23_2
+      - 🇺🇸_1
+      - 🇺🇸_2
+      - 🇭🇰_3
+      - 🇯🇵_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇭🇰_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇮🇱_10
+      - 🇺🇸_11
+      - 🇸🇬_12
+      - 🇸🇬_13
+      - 🇸🇬_14
+      - 🇸🇬_15
+      - 🇭🇰_16
+      - 🇺🇸_17
+      - 🇺🇸_18
+      - 🇮🇳_19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_220602_10_1
-      - 🇺🇸_220602_17_1
-      - 🇺🇸_220602_10_2
-      - 🇺🇸_220602_17_2
-      - 🇺🇸_220602_18_1
-      - 🇺🇸_220602_20_1
-      - 🇺🇸_220602_21_1
-      - 🇺🇸_220602_22_1
-      - 🇺🇸_220602_23_1
-      - 🇺🇸_220602_10_3
-      - 🇺🇸_220602_17_3
-      - 🇺🇸_220602_18_2
-      - 🇭🇰_220602_19
-      - 🇺🇸_220602_20_2
-      - 🇺🇸_220602_21_2
-      - 🇺🇸_220602_22_2
-      - 🇺🇸_220602_23_2
+      - 🇺🇸_1
+      - 🇺🇸_2
+      - 🇭🇰_3
+      - 🇯🇵_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇭🇰_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇮🇱_10
+      - 🇺🇸_11
+      - 🇸🇬_12
+      - 🇸🇬_13
+      - 🇸🇬_14
+      - 🇸🇬_15
+      - 🇭🇰_16
+      - 🇺🇸_17
+      - 🇺🇸_18
+      - 🇮🇳_19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,23 +90,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_220602_10_1
-      - 🇺🇸_220602_17_1
-      - 🇺🇸_220602_10_2
-      - 🇺🇸_220602_17_2
-      - 🇺🇸_220602_18_1
-      - 🇺🇸_220602_20_1
-      - 🇺🇸_220602_21_1
-      - 🇺🇸_220602_22_1
-      - 🇺🇸_220602_23_1
-      - 🇺🇸_220602_10_3
-      - 🇺🇸_220602_17_3
-      - 🇺🇸_220602_18_2
-      - 🇭🇰_220602_19
-      - 🇺🇸_220602_20_2
-      - 🇺🇸_220602_21_2
-      - 🇺🇸_220602_22_2
-      - 🇺🇸_220602_23_2
+      - 🇺🇸_1
+      - 🇺🇸_2
+      - 🇭🇰_3
+      - 🇯🇵_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇭🇰_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇮🇱_10
+      - 🇺🇸_11
+      - 🇸🇬_12
+      - 🇸🇬_13
+      - 🇸🇬_14
+      - 🇸🇬_15
+      - 🇭🇰_16
+      - 🇺🇸_17
+      - 🇺🇸_18
+      - 🇮🇳_19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
